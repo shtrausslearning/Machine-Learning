@@ -7,4 +7,5 @@
 
 #### 2 | Included Approaches
 
-<code>USL_SL_imputation.py</code> : Unsupervised Learning + Supervised Learning Algorithm Imputation Approach
+<code>USL_SL_imputation.py</code> : Unsupervised Learning + Supervised Learning Algorithm Imputation Approach (XGB + kNN) <br>
+<code>
