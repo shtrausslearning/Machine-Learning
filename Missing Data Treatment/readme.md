@@ -14,6 +14,8 @@
 
 #### 2 | Included Approaches
 
+#### **Model Based Approaches**
+
 <sub>
 - <code>USL_SL_imputation.py</code> : Unsupervised Learning + Supervised Learning Algorithm Imputation Approach (XGB + kNN) <br>
 - <code>USL_knn_imputation.py</code> : Unsupervised Learning Algorithm Imputation Approach (kNN) <br>
