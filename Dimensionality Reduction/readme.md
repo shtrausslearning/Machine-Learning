@@ -1,6 +1,7 @@
 #### 1 | Unsupervised Learning Dimensionality Reduction
 
 <sub>
+  
 - One application of Unsupervised Learning Algorithms; <code>dimensionality reduction</code>. <br>
 
 - Often we have too many features in the feature matrix, we can reduce the number of dimension in the problem by using unsupervised learning methods. <br>
