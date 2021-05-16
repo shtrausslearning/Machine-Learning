@@ -1,5 +1,5 @@
 
-#### 1 | MISSING DATA TREATMENT
+#### 1 | MODEL BASED IMPUTATION
 
 <sub>
 - Collected data we want to use in machine learning algorithms can often contain missing data <code>np.nan</code> in the  <code>feature matrix</code>, example shown below. <br>
