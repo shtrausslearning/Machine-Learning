@@ -2,7 +2,6 @@
 #### 1 | Combined Feature Importance Evaluation
 
 <sup>
-  
 - We often are interested in the contribution features have in models or a formulated relation of features to a target variable.
 
 - For example we might look at the correlation to the target variable of features and remove highly correlated features.
@@ -14,7 +13,6 @@
 - Larger scores indicate more contribution in each individual evaluation.
 
 - The nature of Plotly's interative plots, allows us to compare any combination of methods & visualise the feature importance.
-
 </sup>
 
 #### 2 | Example
