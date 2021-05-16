@@ -9,7 +9,7 @@
 - [rr](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy)
 </sub>
 
-<br>
+<br><br>
 
 | Full Feature Matrix | Reduced Feature Matrix |
 | - | - |
