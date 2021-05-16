@@ -6,6 +6,8 @@
 - We can use various approaches to impute/treat the rows of data in the <code>feature matrix</code>.
 </sub>
 
+
+
 | <sub>Example of DataFrame with missing data</sub> |
 | -- |
 | ![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8cc1eeaa-4046-4c4a-ae93-93d656f68688/dejqh2j-5c5e309a-395b-4784-b47c-7337f2563421.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhjYzFlZWFhLTQwNDYtNGM0YS1hZTkzLTkzZDY1NmY2ODY4OFwvZGVqcWgyai01YzVlMzA5YS0zOTViLTQ3ODQtYjQ3Yy03MzM3ZjI1NjM0MjEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ew1VciDi9Qheswko1Hqc-KX5xxsMLjDnlwbY8vVkiWs) |
