@@ -6,7 +6,7 @@
 - We can use various approaches to impute/treat the rows of data in the <code>feature matrix</code>.
 </sub>
 
-<break>
+<break></break>
 
 | <sub>Example of DataFrame with missing data</sub> |
 | -- |
