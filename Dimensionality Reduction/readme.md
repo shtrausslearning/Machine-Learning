@@ -23,8 +23,10 @@
 
 #### 2 | Examples of Dimensionality Reduction
 <sup>
-- <code>sklearn</code> has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>. <br>
+- <code>sklearn</code> has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>.
+
 - Some examples from <code>df_diab</code> & <code>df_boston</code> in the example code.
+
 </sup>
 <br>
   
