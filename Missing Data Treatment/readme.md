@@ -7,9 +7,8 @@
 
 <sub>
 - We can use various approaches to impute/treat the rows of data in the <code>feature matrix</code> & a <code>model based imputation</code> is one such method. <br>
-- Model based approaches can often be more accurate the standard constant value pandas imputation.  <br>
-- In the current function, an <code>ensemble</code> of supervised & unsupervised learning approaches is used. <br>
-</sub>
+- Model based approaches can often be more accurate than standard constant value pandas imputations.  <br>
+- In the current function, an simple <code>ensemble</code> of two quite different methods is used as the imputation final model, combining both supervised & unsupervised methods. <br>
 
 <break></break>
 
