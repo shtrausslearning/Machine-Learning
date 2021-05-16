@@ -1,6 +1,5 @@
 
-#### 1 | Combined Feature Importance Evaluation
-<br>
+#### 1 | Combined Feature Importance Evaluation<br>
 <sup>
   
 - We often are interested in the contribution features have in models or a formulated relation of features to a target variable. <br>
