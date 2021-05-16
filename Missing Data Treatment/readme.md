@@ -1,5 +1,5 @@
 
-#### 1 | Missing Data Treatment
+#### 1 | MISSING DATA TREATMENT
 
 <sub>
 - Collected data we want to use in machine learning algorithms can often contain missing data <code>np.nan</code> in the  <code>feature matrix</code>, example shown below. <br>
