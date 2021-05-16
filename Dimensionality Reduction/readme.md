@@ -7,7 +7,7 @@
 - In this function, most common methods available in the <code>sklearn</code> library are included & an example code is given. <br>
 </sub>
 
-- Example usage in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy).
+<sub> - Example usage in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy). </sub>
 
 | <sub>Full Feature Matrix (13 Features)</sub> | <sub>Reduced Feature Matrix (4 Features)</sub> |
 | - | - |
