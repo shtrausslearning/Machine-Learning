@@ -10,9 +10,9 @@
 
 #### 2 | Example
 
-<sub>
+<sup>
 - Various feature importance to target variable 'PRICE'
-</sub>
+</sup>
 
 |<sub>Example from Kaggle Notebook, [Perth Property Price Prediction](https://www.kaggle.com/shtrausslearning/perth-property-price-prediction)</sub>|
 |-|
