@@ -10,7 +10,7 @@
 
 - In this function, most common methods available in the <code>sklearn</code> library are included & an example code is given. <br>
 
-- An example implementation is viewable in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy).
+- Example usage in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy).
 
 </sub>
 
@@ -19,6 +19,7 @@
 | ![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8cc1eeaa-4046-4c4a-ae93-93d656f68688/dejq952-318b4cf9-a605-486a-ad00-fc90f0bb921f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhjYzFlZWFhLTQwNDYtNGM0YS1hZTkzLTkzZDY1NmY2ODY4OFwvZGVqcTk1Mi0zMThiNGNmOS1hNjA1LTQ4NmEtYWQwMC1mYzkwZjBiYjkyMWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BiPsW7-ijQ4jiCxxwQJt1O5X_JnPMB5IuJr6vz_9pfY) | ![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8cc1eeaa-4046-4c4a-ae93-93d656f68688/dejq959-f8094ae9-95f0-4fd6-a824-4a45b5b748d3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhjYzFlZWFhLTQwNDYtNGM0YS1hZTkzLTkzZDY1NmY2ODY4OFwvZGVqcTk1OS1mODA5NGFlOS05NWYwLTRmZDYtYTgyNC00YTQ1YjViNzQ4ZDMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2j-oUzDCuKM_5TvrrChlRZNBidFqF7FhQZY81itAtLY) |
 </sub>
 
+<br>
 
 #### 2 | Examples of Dimensionality Reduction 
 
