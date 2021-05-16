@@ -1,6 +1,8 @@
 
 #### 1 | Combined Feature Importance Evaluation
 
+<br>
+
 <sup>
   
 - We often are interested in the contribution features have in models or a formulated relation of features to a target variable, for example we might look at the correlation to the target variable of features and remove highly correlated features. The full list of those used in the following function are visible in the figure below.
