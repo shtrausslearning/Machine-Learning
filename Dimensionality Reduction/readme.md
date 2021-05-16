@@ -21,7 +21,7 @@
 
 <sub>
 - <code>sklearn</code> has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>. <br>
-- Some examples from <code>df_diab</code> & <code>df_boston</code> in <code>USL_dim_reduction.py</code>. <br>
+- Some examples from <code>df_diab</code> & <code>df_boston</code> in <code>USL_dim_reduction.py</code>, showing the first two principal axis dimensions. <br>
 </sub>
 
 <br>
