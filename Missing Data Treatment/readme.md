@@ -14,6 +14,8 @@
 
 #### 2 | INCLUDED APPROACHES
 
+###### **PANDAS FUNCTIONS**
+
 ###### **MODEL BASED APPROACHES**
 
 <sub>
