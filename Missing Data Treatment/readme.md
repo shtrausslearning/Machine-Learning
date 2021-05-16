@@ -1,5 +1,5 @@
 
-#### 1 | Missing Data Imputation
+#### 1 | Missing Data Treatment
 
 <sub>
 - Collected data we want to used in the <code>feature matrix</code> can often contain missing data <code>np.nan</code>, which cannot be used with machine learning algorithms. <br>
