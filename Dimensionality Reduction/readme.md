@@ -22,8 +22,6 @@
 
 #### 2 | Examples of Dimensionality Reduction 
 
-<br>
-
 <sub>
   
 - <code>sklearn</code> has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>. <br>
