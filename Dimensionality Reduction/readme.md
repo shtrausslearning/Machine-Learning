@@ -10,7 +10,7 @@
 
 - In this function, most common methods available in the <code>sklearn</code> library are included & an example code is given. <br>
 
-- An example implementation is viewable in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy)
+- An example implementation is viewable in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy).
 
 </sub>
 
