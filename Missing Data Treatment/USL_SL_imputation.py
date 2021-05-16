@@ -1,5 +1,5 @@
 
-''' MODEL ENSEMBLE IMPUTATION '''
+''' 1. MODEL ENSEMBLE IMPUTATION '''
 # kNN Regressor + CatBoost Regressor Ensemble Imputation 
 
 from catboost import CatBoostRegressor
@@ -38,7 +38,7 @@ def impute_model(df,cols=None):
         
     return pd.concat([ldf,ldf_putaside],axis=1)
 
-''' EXAMPLE '''
+''' 2. EXAMPLE '''
 
 from sklearn import datasets
 import pandas as pd
@@ -49,7 +49,7 @@ def sklearn_to_df(sklearn_dataset):
     df['target'] = pd.Series(sklearn_dataset.target)
     return df
 
-# Load DataFrame w/o missing data
+''' Load DataFrame w/o missing data '''
 df_boston = sklearn_to_df(datasets.load_boston())
 display(df_boston.head())
 #display(df_boston.head())
@@ -58,7 +58,7 @@ display(df_boston.head())
 # df_diab = sklearn_to_df(datasets.load_diabetes())
 # print(df_diab.isna().sum()) # check missing data in columns
 
-# Remove random percentage of data in two columns
+ ''' Remove random percentage of data in two columns '''
 p = 2/10
 df_boston["NOX"] = df_boston["NOX"].apply(lambda x: np.nan if np.random.rand() < p else x)
 p = 2/4
