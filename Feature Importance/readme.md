@@ -6,7 +6,7 @@
 - For example, we might look at the <code>correlation</code> to the target variable of features and remove highly correlated features. <br>
 - Due to the subjective nature of feature importance evaluations, we may find it useful to visualise them together. <br>
 - The following simple code combines the most common approaches, gives them equal weighting and is normalised. <br>
-- Larger scores for each individual feature indicate larger impact/relation to the variable of interest. <br>
+- Larger scores for each individual feature indicate larger impact/relation to the variable of interest, <code>target</code>. <br>
 - The nature of <code>Plotly's</code> interative plots, allows us to compare any combination of methods & visualise the feature importance. <br>
 </sup>
 
