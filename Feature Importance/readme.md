@@ -13,7 +13,7 @@
 #### 2 | Example
 
 <sup> 
-- Various feature importance to target variable 'PRICE'
+- Various feature importance to target variable 'PRICE'.
 </sup>
 
 |Example from Kaggle Notebook, [Perth Property Price Prediction](https://www.kaggle.com/shtrausslearning/perth-property-price-prediction)|
