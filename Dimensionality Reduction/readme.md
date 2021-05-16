@@ -11,7 +11,7 @@
 
 #### 2 | Examples of Dimensionality Reduction
 <sup>
-- sklearn has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>.
+- <code>sklearn</code> has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>.
 </sup>
   
 <br>
