@@ -22,7 +22,9 @@
 </sub>
 
 
-#### 2 | Examples of Dimensionality Reduction
+#### 2 | Examples of Dimensionality Reduction 
+
+<br>
 
 <sup>
   
