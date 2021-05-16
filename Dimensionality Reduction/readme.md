@@ -3,6 +3,7 @@
 <sub>
 - One application of Unsupervised Learning Algorithms; <code>dimensionality reduction</code>. <br>
 - We have too many features in the feature matrix, we can reduce the number of dimension in the problem by using USL. <br>
+- The reduced feature matrix features are expected to represent most of the data associated with the full feature matrix. <br>
 - In many problems application different approaches may work better than others, and some might not be very practical to implement due to computational cost. <br>
 - In this function, most common methods available in the <code>sklearn</code> library are included & an example code is given. <br>
 </sub>
