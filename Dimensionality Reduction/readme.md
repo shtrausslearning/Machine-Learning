@@ -10,7 +10,7 @@
 
 - In this function, most common methods available in the <code>sklearn</code> library are included & an example code is given. <br>
 
-- An example implementation is viewable in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy).
+- An example implementation is viewable in a Kaggle Notebook; [Building An Asset Trading Strategy](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy). <br>
 
 </sub>
 
@@ -23,9 +23,10 @@
 
 #### 2 | Examples of Dimensionality Reduction
 <sup>
-- <code>sklearn</code> has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>.
+  
+- <code>sklearn</code> has two main types of modules modules for this task; <code>decomposition</code> & <code>manifold</code>. <br>
 
-- Some examples from <code>df_diab</code> & <code>df_boston</code> in the example code.
+- Some examples from <code>df_diab</code> & <code>df_boston</code> in the example code. <br>
 
 </sup>
 <br>
