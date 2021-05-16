@@ -2,16 +2,12 @@
 #### 1 | Combined Feature Importance Evaluation
 
 <sup>
-- We often are interested in the contribution features have in models or a formulated relation of features to a target variable.
-- For example we might look at the correlation to the target variable of features and remove highly correlated features.
-
-- Due to the subjective nature of feature importance evaluations, we may find it useful to visualise them together.
-
-- The following simple code combines the most common approaches and gives them equal weighting and is normalised.
-
-- Larger scores indicate more contribution in each individual evaluation.
-
-- The nature of Plotly's interative plots, allows us to compare any combination of methods & visualise the feature importance.
+- We often are interested in the contribution features have in models or a formulated relation of features to a target variable. <br>
+- For example we might look at the correlation to the target variable of features and remove highly correlated features. <br>
+- Due to the subjective nature of feature importance evaluations, we may find it useful to visualise them together. <br>
+- The following simple code combines the most common approaches and gives them equal weighting and is normalised. <br>
+- Larger scores indicate more contribution in each individual evaluation. <br>
+- The nature of Plotly's interative plots, allows us to compare any combination of methods & visualise the feature importance. <br>
 </sup>
 
 #### 2 | Example
