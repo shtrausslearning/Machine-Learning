@@ -1,9 +1,6 @@
 #### 1 | Unsupervised Learning Dimensionality Reduction
 
-***
-
-<sup>
-  
+<sub>
 - One application of Unsupervised Learning Algorithms; <code>dimensionality reduction</code>. <br>
 
 - Often we have too many features in the feature matrix, we can reduce the number of dimension in the problem by using unsupervised learning methods. <br>
@@ -14,7 +11,7 @@
 
 - An example implementation is viewable in a Kaggle Notebook; [example](https://www.kaggle.com/shtrausslearning/building-an-asset-trading-strategy)
 
-</sup>
+</sub>
 
 | <sub>Full Feature Matrix (13 Features)</sub> | <sub>Reduced Feature Matrix (4 Features)</sub> |
 | - | - |
