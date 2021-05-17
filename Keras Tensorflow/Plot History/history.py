@@ -1,4 +1,7 @@
 # Function to plot all metrics side by side (defined above)
+# Plot multiple evaluation metrics horizontally, history plots vertically & compare all cases, outlining the main one 
+
+# input list of history outputs
 def plot_keras_metric2(lst_history,names):
 
     # Palettes
