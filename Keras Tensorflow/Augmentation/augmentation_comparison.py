@@ -1,7 +1,8 @@
-''' MAIN FUNCTION '''
-# For Multiclass Image Classification /w CNN Model
+''' HELPER FUNCTIONS '''
 
-# Evaluate CNN model w/ imported list of augmentation options
+''' Main Function '''
+# For Multiclass Image Classification /w CNN Model
+# Evaluate CNN model w/ imported list of augmentation options (one only)
 def augment_model(lst_aug):
     
     # Requires list of augmentations to training & val/test data
@@ -55,7 +56,7 @@ def augment_model(lst_aug):
     # Return Result History
     return history 
 
-''' AUGMENTATION OPTIONS '''
+''' Augmentation Options '''
 
 # lst of augmentation options
 lst_augopt = ['rescale','horizontal_flip','vertical_flip',
@@ -71,7 +72,7 @@ lst_augval = [1.0/255,True,True,
               0,True,False,
              False,False,False]
 
-''' HELPER FUNCTIONS '''
+''' HELPER FUNCTION '''
 
 # Get Augmentation Names from lst_select options
 def get_aug_name(lst_select):
@@ -82,6 +83,8 @@ def get_aug_name(lst_select):
             tlist_selectn = tlst_all.append(lst_augopt[j])
         lst_selectn.append(tlst_all)
     return lst_selectn
+
+''' Evaluation Function '''
 
 # Model Evaluation w/ Augmentation
 def aug_eval(lst_select=None):
@@ -106,11 +109,11 @@ def aug_eval(lst_select=None):
         
     return lst_history
   
-''' EXAMPLE '''
+''' EXAMPLE CASE'''
 
 # Select Augmentation
 lst_select = [[0,1],[0,2],[0,3],[0,1,5,6]] # list of augmentations combinations to test
-lst_selectn = get_aug_name(lst_select)     # get list of augmentation names
+lst_selectn = get_aug_name(lst_select)     # get list of augmentation names corresponding to lst_select
 print(lst_selectn)
 
 # Evaluation Augmentation Model
