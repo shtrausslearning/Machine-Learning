@@ -7,7 +7,9 @@ import plotly.graph_objects as go
 # Single Plotly Timeseries Line Plot
 # Input x axis -> date_time # lst-> column plots # sec_id -> secondary axis identifier T/F list
 
-# One plot type
+''' SINGLE PLOTLY PLOT '''
+# single axis or multiple axis 
+
 def plot_line(ldf,lst,title='',sec_id=None,size=[350,1000]):
     
     # sec_id - list of [False,False,True] values of when to activate supblots; same length as lst
@@ -45,5 +47,6 @@ df = df.cumsum().reset_index()
 # Example
 plot_line(df,['A','B'],sec_id=[False,False])
 
+# Example: Multiple axis (for different scales)
 df['B'] = df['B'] * 100
 plot_line(df,['A','B'],sec_id=[False,True])
