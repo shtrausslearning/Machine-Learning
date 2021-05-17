@@ -1,4 +1,5 @@
 ''' MAIN FUNCTION '''
+# For Multiclass Image Classification /w CNN Model
 
 # Evaluate CNN model w/ imported list of augmentation options
 def augment_model(lst_aug):
