@@ -1,5 +1,5 @@
 ''' Decision Tree based Regressor '''
-# more optimal MSE error calculation variant
+# More optimal MSE error calculation variant
 
 import os
 import plotly.express as px
