@@ -1,5 +1,8 @@
 ''' Function plots & returns highest weighted features '''
-# for SVC linear covariance function model in SQ sequence format
+# Another model alowing us to look at model weights & interpret them; SVC
+# Only for SVC linear covariance function model in SQ sequence format
+# Notebook @https://www.kaggle.com/shtrausslearning/identifying-antibiotic-resistant-bacteria
+# Requires SQ class (biological sequence operations)
 
 def fi_svc(classifier, feature_names, top_features=5,verbose=False):
     
