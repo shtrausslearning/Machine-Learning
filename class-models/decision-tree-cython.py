@@ -1,3 +1,6 @@
+''' Decision Tree based Regressor '''
+# more optimal MSE error calculation variant
+
 import os
 import plotly.express as px
 import plotly.graph_objects as go
