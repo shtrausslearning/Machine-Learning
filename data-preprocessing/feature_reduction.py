@@ -1,6 +1,6 @@
 ''' Feature Reduction using Unsupervised Learning Models '''
 # similar to clustering feature reduction, we can use usl models in sklearn
-# to reduce the dimension of the feature matrix 
+# to reduce the dimension of the feature matrix, mainly decomposition & manifold methods
 
 from sklearn.decomposition import PCA
 from sklearn.decomposition import SparsePCA
