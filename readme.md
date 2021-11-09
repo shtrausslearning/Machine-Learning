@@ -4,7 +4,7 @@
 - <code>uni-bi-multivariate-relations</code> - Univariate/Bivariate/Multivariate feature relation statistics/plot related
 
 ```diff
-- <code>text in red</code>
+- <code>text</code> in red
 + text in green
 ! text in orange
 # text in gray
