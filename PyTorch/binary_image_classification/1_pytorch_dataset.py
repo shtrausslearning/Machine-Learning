@@ -14,6 +14,7 @@ from torch.utils.data import random_split
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 import torch.nn as nn
 from torchvision import utils
+import torchvision.transforms as transforms
 %matplotlib inline
 
 ''' MAKE PYTORCH DATASET '''
@@ -46,3 +47,11 @@ class pytorch_data(Dataset):
         image = Image.open(self.full_filenames[idx])  # Open Image with PIL
         image = self.transform(image) # Apply Specific Transformation to Image
         return image, self.labels[idx] # Main Requirement; return image & label
+    
+# define transformation that converts a PIL image into PyTorch tensors.
+data_transformer = transforms.Compose([transforms.ToTensor(),
+                                       transforms.Resize((46,46))])
+
+# Define an object of the custom dataset for the train folder.
+data_dir = '/kaggle/input/histopathologic-cancer-detection/'
+img_dataset = pytorch_data(data_dir, data_transformer, "train") # Histopathalogic images
