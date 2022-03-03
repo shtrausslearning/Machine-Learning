@@ -1,4 +1,8 @@
-''' Imputation using SimpleImputer '''
+''' Simple Imputations '''
+# (1) Mean Values in column
+# (2) Median Values in column
+# (3) Most Frequent Values in column
+# (4) Constant Fill, one value for missing data in column
 
 from sklearn import datasets
 import pandas as pd
@@ -38,8 +42,6 @@ display(df_diab.head())
 # make na data for bmi and age columns
 df_diab_na = make_na(df_diab,['bmi','age'],[2/10,2/4])
 show_na(df_diab_na)
-
-''' Simple Imputations '''
 
 # by default imputes w/ column mean values
 imputed_mean = SimpleImputer()
