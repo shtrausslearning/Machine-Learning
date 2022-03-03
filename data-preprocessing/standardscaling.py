@@ -31,7 +31,6 @@ print(np.std(standard_data, 0))
 
 ''' MinMax Scaling '''
 # Can set feature_range=(min, max), by default 0,1
-# Масштабирование признаков
 
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
