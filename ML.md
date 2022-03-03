@@ -10,3 +10,6 @@
 - в обучающем и тестовом наборах (in training & test sets)
 - метод опорных векторов (SVM)
 - k-блочной перекрёстной проверкой (Kfold Cross Validation)
+- регрессии (regression) классификации (classification)
+- объединение нескольких моделей (ensemble models)
+- гиперпараметры (Hyperparameters)
