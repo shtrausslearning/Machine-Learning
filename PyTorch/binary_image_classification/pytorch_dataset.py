@@ -45,4 +45,4 @@ class pytorch_data(Dataset):
         # open image, apply transforms and return with label
         image = Image.open(self.full_filenames[idx])  # Open Image with PIL
         image = self.transform(image) # Apply Specific Transformation to Image
-        return image, self.labels[idx]
+        return image, self.labels[idx] # Main Requirement; return image & label
