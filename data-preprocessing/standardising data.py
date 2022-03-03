@@ -1,3 +1,5 @@
+# Mean & Standard Deviation of Data in DataFrame
+
 from sklearn import datasets
 import pandas as pd
 import numpy as np
