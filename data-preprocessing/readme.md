@@ -6,4 +6,4 @@
 - <code>normalising instances.py</code> - 
 - <code>scaling with outliers.py</code> - 
 - <code>standardising data.py</code> - 
-- <code>standardscaling.py</code> - Масштабирование признаков <code>standardscaler</code>, <code>minmax</code>
+- <code>standardscaling.py</code> - Масштабирование признаков <code>StandardScaler</code>, <code>MinMaxScaler</code>
