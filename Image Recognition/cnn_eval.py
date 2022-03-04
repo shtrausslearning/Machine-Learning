@@ -1,3 +1,42 @@
+import tensorflow as tf
+
+class MNISTModel(object):
+    # Model Initialization
+    def __init__(self, input_dim, output_size):
+        self.input_dim = input_dim
+        self.output_size = output_size
+    
+    # Get logits from the dropout layer
+    def get_logits(self, dropout):
+        logits = tf.layers.dense(dropout,self.output_size,name='logits')
+        return logits
+    
+    # CNN Layers
+    def model_layers(self, inputs, is_training):
+        
+        reshaped_inputs = tf.reshape(inputs, [-1, self.input_dim, self.input_dim, 1])
+        # Convolutional Layer #1
+        conv1 = tf.layers.conv2d(inputs=reshaped_inputs,filters=32,kernel_size=[5,5],padding='same',activation=tf.nn.relu,name='conv1')
+        # Pooling Layer #1
+        pool1 = tf.layers.max_pooling2d(inputs=conv1,pool_size=[2,2],strides=2,name='pool1')
+        # Convolutional Layer #2
+        conv2 = tf.layers.conv2d(inputs=pool1,filters=64,kernel_size=[5,5],padding='same',activation=tf.nn.relu,name='conv2')
+        # Pooling Layer #2
+        pool2 = tf.layers.max_pooling2d(inputs=conv2,pool_size=[2,2],strides=2,name='pool2')
+        
+        # Dense Layer
+        hwc = pool2.shape.as_list()[1:]
+        flattened_size = hwc[0] * hwc[1] * hwc[2]
+        pool2_flat = tf.reshape(pool2, [-1, flattened_size])
+        dense = tf.layers.dense(pool2_flat, 1024,
+            activation=tf.nn.relu, name='dense')
+        # Apply Dropout
+        dropout = tf.layers.dropout(dense, rate=0.4,
+            training=is_training)
+        # Get and Return Logits
+        return self.get_logits(dropout)
+
+
 def run_model_setup(self, inputs, labels, is_training):
     logits = self.model_layers(inputs, is_training)
 
