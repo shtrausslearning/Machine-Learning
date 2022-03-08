@@ -3,3 +3,4 @@
 - <code>feature-importance</code> - Functions involving a model/approach's feature importance
 - <code>uni-bi-multivariate-relations</code> - Univariate/Bivariate/Multivariate feature relation statistics/plot related
 - <code>class-models</code> - Simplistic class models for various Machine Learning (ML) Models
+- <code>clustering</code> - sklearn related operations for clustering of data
