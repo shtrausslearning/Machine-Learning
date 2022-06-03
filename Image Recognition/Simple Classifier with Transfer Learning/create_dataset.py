@@ -1,8 +1,10 @@
-# Notes:
-# Folder organisation Main\Train\(class id)\(class imgs)
-
+import random
 import os
 from keras.preprocessing import image
+
+''' Load Images into Numpy Format '''
+# first we need to read the image data located in folder 'Train'
+# Folder organisation Main\Train\(class id)\(class imgs)
 
 img_size = (224,224)
 folders = os.listdir('Train')
@@ -23,3 +25,10 @@ for folder in folders:
         except:
             pass
     ii+=1
+
+''' Shuffle Dataset '''
+# using the random module
+
+combined_dataset = list(zip(img_data, labels))
+random.shuffle(combined_dataset)
+image_data[:], labels[:] = zip(*combined_dataset)
