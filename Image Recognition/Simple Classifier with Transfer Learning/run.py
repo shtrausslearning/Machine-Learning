@@ -1,3 +1,7 @@
+# Some notes:
+# The ResNet50 model expects a (224,224) sized image.
+# Outputs show class probabilities
+
 import pandas as pd
 import numpy as np
 
@@ -13,7 +17,7 @@ print('Model Downloaded Successfully!')
 # Visualise Model Summary
 model.summary()
 
-# Function to load image
+# Function to load image & image is converted to a NumPy array
 
 def load_img(path):
     img = image.load_img(path,target_size=(224,224))
@@ -24,7 +28,6 @@ def load_img(path):
 
 # image from local directory
 path = '*.jpeg'
-
 img = load_image(path)
 
 # Model Prediction
