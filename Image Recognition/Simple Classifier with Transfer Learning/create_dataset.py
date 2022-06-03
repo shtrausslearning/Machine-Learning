@@ -1,6 +1,7 @@
 import random
 import os
 from keras.preprocessing import image
+from keras.utils import np_utils
 
 ''' Load Images into Numpy Format '''
 # first we need to read the image data located in folder 'Train'
@@ -32,3 +33,11 @@ for folder in folders:
 combined_dataset = list(zip(img_data, labels))
 random.shuffle(combined_dataset)
 image_data[:], labels[:] = zip(*combined_dataset)
+
+''' OHE the labels '''
+# Store training data in numpy array & OHE labels
+# using the keras utility; np_utlis
+
+X_train = np.array(img_data)
+Y_train = np.array(labels)
+Y_train = np_utils.to_categorical(Y_train)
