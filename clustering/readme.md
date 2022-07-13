@@ -1,7 +1,7 @@
 
 ## Clustering Approaches 
 
-### Array Similarity
+### 1 | Array Similarity
 
 #### Similarity of values within array
 
@@ -35,3 +35,9 @@ data2 = np.array([
 similarity = cosine_similarity(data1, data2)
 print(f'{(similarity)}')
 ```
+
+### 2 | k-means
+
+```python 
+
+
