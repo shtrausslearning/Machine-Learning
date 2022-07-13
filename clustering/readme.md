@@ -1,5 +1,7 @@
 
-### Clustering Approaches 
+## Clustering Approaches 
+
+### Array Similarity
 
 #### Similarity of values within array
 
