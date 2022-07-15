@@ -3,7 +3,7 @@
 
 #### 1 | Categorical Data
 
-- <code>label</code> encoding
+- <code>label</code> encoding of a **list**
 
 ```python
 import pandas as pd
@@ -21,7 +21,7 @@ print(categorical_series.cat.codes)
 dtype: int8
 ```
 
-- <code>one-hot encoding</code> with pandas
+- <code>one-hot encoding</code> with pandas using <code>get_dummies</code>
 
 ```python
 non_categorical_series = pd.Series(['male', 'female', 'male', 'female'])
