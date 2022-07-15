@@ -5,7 +5,7 @@
 
 - <code>label</code> encoding
 
-```
+```python
 import pandas as pd
 
 non_categorical_series = pd.Series(['male', 'female', 'male', 'female']) 
