@@ -1,13 +1,23 @@
 
+
+- <code>changing feature range.py</code> - Изменения диапазона признака от A до B (ie. нормализация), <code>MinMaxScalar</code>
+- <code>feature_reduction.py</code> - Уменьшения количество признаков истользуя методы неконтролируемого обучения
+- <code>imputation_model.py</code> - Заполнение пропущенных значений используя модели машинного обучения
+- <code>imputation_simple.py</code> - Заполнение пропущенных значений используя <code>SimpleImputer</code>
+- <code>normalising instances.py</code> - 
+- <code>scaling with outliers.py</code> - 
+- <code>standardising data.py</code> - 
+- <code>standardscaling.py</code> - Масштабирование признаков <code>StandardScaler</code>, <code>MinMaxScaler</code>
+
+
 - <code>label</code> encoding
 
 ```
 import pandas as pd
 
-non_categorical_series = pd.Series(['male', 'female', 'male', 'female'])  # Create series with male and female values
-categorical_series = non_categorical_series.astype('category') # Convert the text series to a categorical series
-
-print(categorical_series.cat.codes) # Print the numeric codes for each value
+non_categorical_series = pd.Series(['male', 'female', 'male', 'female']) 
+categorical_series = non_categorical_series.astype('category') 
+print(categorical_series.cat.codes) 
 ```
 
 ```
