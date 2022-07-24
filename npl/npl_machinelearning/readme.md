@@ -36,7 +36,7 @@ print(tokeniser.word_index)
 ```
 
 - Tokiniser (<code>p.text.Tokenizer()</code>) filters out any punctuation and white space
-- When a new text contains words which are not in the corpus vocabulary (known as out-of-vocabulary (OOV) words)
+- When a new text (new_texts) contains words which are not in the corpus vocabulary (text_corpus) (known as out-of-vocabulary (OOV) words)
 
 ```python
 
