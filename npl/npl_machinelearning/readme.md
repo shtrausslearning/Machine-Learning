@@ -53,3 +53,7 @@ print(tokeniser.word_index)
 [[4, 2, 1], [5, 2, 1]]
 {'OOV': 1, 'ate': 2, 'apples': 3, 'bob': 4, 'fred': 5}
 ```
+
+- <code>num_words</code> maximum number of vocabulary words to use. 
+- If we set num_words=10 when initializing the tokeniser:
+  - it will only use the 10 most frequent words in the vocabulary & filter out the remaining words
