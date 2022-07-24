@@ -57,3 +57,10 @@ print(tokeniser.word_index)
 - <code>num_words</code> maximum number of vocabulary words to use. 
 - If we set <code>num_words</code> equal to 10 when initializing the tokeniser:
   - it will only use the 10 most frequent words in the vocabulary & filter out the remaining words
+
+#### Embeddings
+
+-  Integer IDs don’t give a sense of how different words may be related
+-  **Solution**: convert each word into an embedding vector. 
+-  An <code>embedding vector</code> is a higher-dimensional vector representation of a vocabulary word
+-  Vectors have distance & <code>embedding vectors</code> -> word representation that captures relationships between words
