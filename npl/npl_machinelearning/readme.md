@@ -34,3 +34,22 @@ print(tokeniser.word_index)
 [[3, 1, 5], [6, 1, 5]]
 {'ate': 1, 'apples': 2, 'bob': 3, 'and': 4, 'pears': 5, 'fred': 6}
 ```
+
+- Tokiniser (<code>p.text.Tokenizer()</code>) filters out any punctuation and white space
+- When a new text contains words which are not in the corpus vocabulary (known as out-of-vocabulary (OOV) words)
+
+```python
+
+tokeniser = p.text.Tokenizer(oov_token='OOV')
+text_corpus = ['bob ate apples', 'fred ate apples!']
+tokeniser.fit_on_texts(text_corpus)
+
+new_texts = ['bob ate pears', 'fred ate pears']
+print(tokeniser.texts_to_sequences(new_texts))
+print(tokeniser.word_index)
+```
+
+```
+[[4, 2, 1], [5, 2, 1]]
+{'OOV': 1, 'ate': 2, 'apples': 3, 'bob': 4, 'fred': 5}
+```
