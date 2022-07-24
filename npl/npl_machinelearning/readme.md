@@ -1,1 +1,36 @@
 
+### 1 | Introduction
+
+- **Word Embeddings** Foundational knowledge needed for further textual analysis using NLP techniques
+- **Language Model** progresses from the basics of the language model in NLP to model application and analysis
+- **Text Classification** teaches us the techniques of text classification in NLP and gives an overview of sentiment analysis
+- **Seq2Seq Model** teaches us about Seq2Seq modeling in detail and provides takeaways on model improvement
+
+#### Vocabulary 
+
+- The <code>tokeniser</code> automatically converts each vocabulary word to an integer ID
+- This allows the tokenised sequences to be used in NLP algorithms 
+- the <code>texts_to_sequences</code> function converts each vocabulary word in new_texts to its corresponding integer ID
+- <code>fit_on_texts</code> is also included in the word_index, we can also fit on new_texts, but we wont have other unique word indicies from text_corpus 
+
+
+```python
+import tensorflow.keras.preprocessing as p
+
+# fit_on_texts - initialise the object with a text corpus
+# texts_to_sequences - convert pieces of text into sequences of tokens
+
+# Fit on data
+tokeniser = p.text.Tokenizer()
+text_corpus = ['bob ate apples, and pears', 'fred ate apples!']
+tokeniser.fit_on_texts(text_corpus)
+
+new_texts = ['bob ate pears', 'fred ate pears']
+print(tokeniser.texts_to_sequences(new_texts))
+print(tokeniser.word_index)
+```
+
+```
+[[3, 1, 5], [6, 1, 5]]
+{'ate': 1, 'apples': 2, 'bob': 3, 'and': 4, 'pears': 5, 'fred': 6}
+```
