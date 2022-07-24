@@ -64,7 +64,10 @@ print(tokeniser.word_index)
 -  **Solution**: convert each word into an embedding vector. 
 -  An <code>embedding vector</code> is a higher-dimensional vector representation of a vocabulary word
 -  Vectors have distance & <code>embedding vectors</code> -> word representation that captures relationships between words
-
 - When creating <code>embedding vectors</code> for the vocabulary, something to consider is how large the vectors are (i.e. dimensions):
   - Larger vectors are able to capture more relational tendencies between words & therefore better if you have a large vocabulary size 
   - But they also use up more resources & are likely to overfit on smaller vocabularies
+- A general rule of thumb is to set the number of dimensions in your embedding vectors equal to the **4th root of the vocabulary size** 
+- For example, if your vocabulary consists of 10000 words, the rule says your embedding vectors should have 10 dimensions
+- However, similar to the <code>batch size</code> or <code>number of hidden layers</code> in a nn
+  - Try different <code>embedding sizes</code> in order figure out which is best for the task at hand
