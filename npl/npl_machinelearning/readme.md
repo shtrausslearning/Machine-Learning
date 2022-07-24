@@ -55,5 +55,5 @@ print(tokeniser.word_index)
 ```
 
 - <code>num_words</code> maximum number of vocabulary words to use. 
-- If we set num_words=10 when initializing the tokeniser:
+- If we set <code>num_words</code> equal to 10 when initializing the tokeniser:
   - it will only use the 10 most frequent words in the vocabulary & filter out the remaining words
