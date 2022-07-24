@@ -64,3 +64,7 @@ print(tokeniser.word_index)
 -  **Solution**: convert each word into an embedding vector. 
 -  An <code>embedding vector</code> is a higher-dimensional vector representation of a vocabulary word
 -  Vectors have distance & <code>embedding vectors</code> -> word representation that captures relationships between words
+
+- When creating <code>embedding vectors</code> for the vocabulary, something to consider is how large the vectors are (i.e. dimensions):
+  - Larger vectors are able to capture more relational tendencies between words & therefore better if you have a large vocabulary size 
+  - But they also use up more resources & are likely to overfit on smaller vocabularies
