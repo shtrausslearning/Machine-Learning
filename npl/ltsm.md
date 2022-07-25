@@ -13,9 +13,9 @@
   - Rolled 
   - Unrolled
 
-- Rolled RNN diagram shows the "true" depiction of the network 
+- Rolled RUN, "true" depiction of the network:
   - It consists of a single cell 
-  - multi-layer RNN will have multi stacked cells
+  - multi-layer RNN will have multi-stacked cells
   - 3 types of connections: input, output, and recurrent 
   - An unrolled representation gives us a better look at what each of these connections represent
 
