@@ -27,3 +27,21 @@
   - At each time step, the arrow going into the cell represents the token at that particular index of the input sequence
   - The arrow going out of the cell represents the cell's output
 
+### 2 | LTSM
+
+```python
+import tensorflow as tf
+
+# LSTM Language Model
+class LanguageModel(object):
+
+    def __init__(self, vocab_size, max_length, num_lstm_units, num_lstm_layers):
+        self.vocab_size = vocab_size
+        self.max_length = max_length
+        self.num_lstm_units = num_lstm_units
+        self.num_lstm_layers = num_lstm_layers
+        self.tokenizer = tf.keras.preprocessing.text.Tokenizer(num_words=vocab_size)
+
+    def make_lstm_cell(self, dropout_keep_prob):
+        cell = tf.keras.layers.LSTMCell(self.num_lstm_units)
+        return cell
